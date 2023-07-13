@@ -1,0 +1,229 @@
+:root {
+	--maincolor:#4bb84d;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+img {max-width: 100%;}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  src: url('../webfont/news 706 bold bt.ttf');
+  font-family: 'news-706-bold-bt';
+}
+.bet-text {
+  font-family: 'news-706-bold-bt';
+}
+.bet-text {
+  font-family: 'news-706-bold-bt';
+  top: 27%;
+  font-size: 14px;
+  left: 34%;
+  width: 52%;
+}
+.bet-text strong, .bet-text span {
+  font-family: 'news-706-bold-bt';
+}
+.bet-text span {
+  color: #ffdd00;
+}
+.header {
+  position: absolute;
+  top: 1%;
+  left: -4%;
+}
+.card-block img {
+  margin-left: -31%;
+  width: 60px;
+}
+.beticon {
+  width: 75px;
+  margin-top: -8px;
+}
+.card-bet-block {
+  top: 12%;
+  left: 12%;
+}
+.card-point {
+  background: #071f26;
+  min-width: 50px;
+  font-size: 12px;
+  padding: 1px 2px;
+  font-weight: 600;
+}
+.card-bet-block-2 {
+  top: 42%;
+  left: 22%;
+}
+.card-bet-block-3 {
+  left: auto;
+  right: 8%;
+}
+.card-bet-block-4 {
+  top: 44%;
+  right: 15%;
+}
+.card-bet-block-5 {
+  left: 52%;
+  top: auto;
+  bottom: 31%;
+}
+.card-bet-block-6 {
+  width: 130px;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  top: 6%;
+}
+.userborder {
+  width: 80px;
+}
+.userdp {
+  width: 56px;
+  height: 56px;
+}
+.usergamepoint img {
+  width: 100%;
+}
+.usergamepoint {
+  width: 120px;
+  left: -25% !important;
+bottom: -41% !important;
+}
+.usergamepoint span {
+  font-size: 10px;
+  top: 4px;
+  font-weight: 500;
+}
+.usergamepoint strong {
+  color: #ffdd00;
+  bottom: 6px;
+  font-size: 14px;
+}
+.user-block {
+  top: 28%;
+  left: 0;
+}
+.user-block-1 {
+  top: auto;
+  bottom: 14%;
+  left: 20%;
+}
+.user-block-2 {
+  left: 45%;
+  bottom: 9%;
+}
+.user-block-3 {
+  left: auto;
+  right: 20%;
+}
+.user-block-4 {
+  top: 28%;
+  left: auto;
+  right: 0;
+}
+.betdiv-block img {
+  width: 90px;
+}
+.betdiv-block {
+  gap: 3%;
+  position: absolute;
+  width: 100%;
+  bottom: -12%;
+  z-index: 1;
+}
+.betdiv-block .w-auto::before {
+  content: "";
+  display: block;
+  width: 141%;
+  height: 141%;
+  border-radius: 50%;
+  background: url('../img/betactive.png') no-repeat;
+  background-size: auto;
+  position: absolute;
+  left: -19%;
+  top: -21%;
+  z-index: -1;
+  background-size: contain;
+  transition: all .2s linear;
+  transform: scale(0);
+  cursor: pointer;
+}
+.betdiv-block .w-auto, .betdiv-block .w-auto img  {
+ transition: all .2s linear; 
+ cursor: pointer;
+}
+.betdiv-block .w-auto:hover::before{
+  transform: scale(1.0);
+} 
+.betdiv-block .w-auto:hover img {
+  transform: scale(1.1);
+}
+.timer img {
+  width: 90px;
+}
+.timer span {
+  color: #183037;
+  font-weight: 800;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 20px;
+}
+.timer {
+  top: 2%;
+  right: 22%;
+}
+.card-bet-block {
+  width: 125px;
+}
+.card-bet-block-5 .beticon, .card-bet-block-4 .beticon {
+  left: -55%;
+  bottom: -30%;
+}
+.split, .double {
+  bottom: 5%;
+  left: 32%;
+}
+.double {
+  left: auto;
+  right: 32%;
+}
+.stand, .hit {
+  bottom: 6%;
+  left: 33%;
+}
+.hit {
+  left: auto;
+  right: 35%;
+}
+.card-point {
+  background: #382811;
+  font-size: 12px;
+  padding: 1px 2px;
+  font-weight: 600;
+  border-radius: 3px 10px 3px 10px !important;
+  min-width: 30px;
+}

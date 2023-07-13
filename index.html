@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Black Jack</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/Fontawsome/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="lobby-body">
+<div class="container-fluid px-md-5">
+  <div class="row">
+    <div class="col-12 pb-5" style="padding: 0 150px;">
+      <div class="w-100 position-relative">
+  <img src="assets/img/table.png" class="w-100" />
+  <div class="header container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex aligin-items-center">
+          <div class="w-auto">
+            <img src="assets/img/back.png" width="71" style="position: relative;top: 1px;" />
+          </div>
+          <div class="w-auto position-relative">
+            <img src="assets/img/bet.png" width="150" />
+            <p class="mb-0 text-uppercase position-absolute bet-text"><strong class="float-start">bet</strong><span class="float-end">51</span></p>
+          </div>
+          <div class="w-auto position-relative">
+            <img src="assets/img/win.png" width="150" />
+            <p class="mb-0 text-uppercase position-absolute bet-text"><strong class="float-start">win</strong><span class="float-end">51</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="position-absolute card-bet-block">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+    <span class="rounded-pill position-absolute bottom-0 start-0 card-point text-center">12</span>
+  </div>
+  <div class="beticon position-relative">
+    <img src="assets/img/betbg.png" width="75" />
+    <img src="assets/img/bet1.png" class="position-absolute start-0 end-0 m-auto top-0 bottom-0" width="65" />
+  </div>
+</div>
+
+<div class="position-absolute card-bet-block card-bet-block-2">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+    <span class="rounded-pill position-absolute bottom-0 start-0 card-point text-center">12</span>
+  </div>
+  <div class="beticon position-relative float-end">
+    <img src="assets/img/betbg.png" width="75" />
+    <img src="assets/img/bet2.png" class="position-absolute start-0 end-0 m-auto top-0 bottom-0" width="65" />
+  </div>
+</div>
+
+<div class="position-absolute card-bet-block card-bet-block-3">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+    <span class="rounded-pill position-absolute bottom-0 start-0 card-point text-center">12</span>
+  </div>
+  <div class="beticon position-relative">
+    <img src="assets/img/betbg.png" width="75" />
+    <img src="assets/img/bet3.png" class="position-absolute start-0 end-0 m-auto top-0 bottom-0" width="65" />
+  </div>
+</div>
+
+<div class="position-absolute card-bet-block card-bet-block-3 card-bet-block-4">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+    <span class="rounded-pill position-absolute bottom-0 start-0 card-point text-center">12</span>
+  </div>
+  <div class="beticon position-absolute">
+    <img src="assets/img/betbg.png" width="75" />
+    <img src="assets/img/bet4.png" class="position-absolute start-0 end-0 m-auto top-0 bottom-0" width="65" />
+  </div>
+</div>
+
+<div class="position-absolute card-bet-block card-bet-block-5">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+    <span class="rounded-pill position-absolute bottom-0 start-0 card-point text-center">12</span>
+  </div>
+  <div class="beticon position-absolute">
+    <img src="assets/img/betbg.png" width="75" />
+    <img src="assets/img/bet5.png" class="position-absolute start-0 end-0 m-auto top-0 bottom-0" width="65" />
+  </div>
+</div>
+
+<div class="position-absolute card-bet-block card-bet-block-6">
+  <div class="card-block position-relative" style="z-index: 1;">
+    <img src="assets/img/card.png" class="m-0" />
+    <img src="assets/img/card2.png" />
+    <img src="assets/img/card3.png" />
+  </div>
+</div>
+
+<div class="user-block position-absolute">
+  <div class="user-profile">
+    <img class="userborder" src="assets/img/userborder.png" />
+    <img class="userbg position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/userbg.png" />
+    <img class="userdp rounded-circle position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/user.jpg" />
+  </div>
+  <div class="usergamepoint position-absolute bottom-0 start-0 end-0 m-auto">
+    <img src="assets/img/useroint.png" />
+    <span class="d-block position-absolute text-center w-100">faizy01</span>
+    <strong class="d-block position-absolute text-center w-100">50.60</strong>
+  </div>
+</div>
+
+
+<div class="user-block user-block-1 position-absolute">
+  <div class="user-profile">
+    <img class="userborder" src="assets/img/userborder.png" />
+    <img class="userbg position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/userbg.png" />
+    <img class="userdp rounded-circle position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/user.jpg" />
+  </div>
+  <div class="usergamepoint position-absolute bottom-0 start-0 end-0 m-auto">
+    <img src="assets/img/useroint.png" />
+    <span class="d-block position-absolute text-center w-100">faizy01</span>
+    <strong class="d-block position-absolute text-center w-100">50.60</strong>
+  </div>
+</div>
+
+<div class="user-block user-block-1 user-block-2 position-absolute">
+  <div class="user-profile">
+    <img class="userborder" src="assets/img/userborder.png" />
+    <img class="userbg position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/userbg.png" />
+    <img class="userdp rounded-circle position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/user.jpg" />
+  </div>
+  <div class="usergamepoint position-absolute bottom-0 start-0 end-0 m-auto">
+    <img src="assets/img/useroint.png" />
+    <span class="d-block position-absolute text-center w-100">faizy01</span>
+    <strong class="d-block position-absolute text-center w-100">50.60</strong>
+  </div>
+</div>
+
+<div class="user-block user-block-1 user-block-3 position-absolute">
+  <div class="user-profile">
+    <img class="userborder" src="assets/img/userborder.png" />
+    <img class="userbg position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/userbg.png" />
+    <img class="userdp rounded-circle position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/user.jpg" />
+  </div>
+  <div class="usergamepoint position-absolute bottom-0 start-0 end-0 m-auto">
+    <img src="assets/img/useroint.png" />
+    <span class="d-block position-absolute text-center w-100">faizy01</span>
+    <strong class="d-block position-absolute text-center w-100">50.60</strong>
+  </div>
+</div>
+
+<div class="user-block user-block-4 position-absolute">
+  <div class="user-profile">
+    <img class="userborder" src="assets/img/userborder.png" />
+    <img class="userbg position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/userbg.png" />
+    <img class="userdp rounded-circle position-absolute start-0 end-0 m-auto top-0 bottom-0" src="assets/img/user.jpg" />
+  </div>
+  <div class="usergamepoint position-absolute bottom-0 start-0 end-0 m-auto">
+    <img src="assets/img/useroint.png" />
+    <span class="d-block position-absolute text-center w-100">faizy01</span>
+    <strong class="d-block position-absolute text-center w-100">50.60</strong>
+  </div>
+</div>
+
+<div class="position-absolute timer">
+  <img src="assets/img/timer.png" />
+  <span class="position-absolute">15</span>
+</div>
+
+<div class="container-fluid d-flex justify-content-center aligin-items-center betdiv-block">
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet1.png" />
+  </div>
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet2.png" />
+  </div>
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet3.png" />
+  </div>
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet4.png" />
+  </div>
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet5.png" />
+  </div>
+  <div class="w-auto position-relative">
+    <img src="assets/img/bet6.png" />
+  </div>
+</div>
+
+<div class="double position-absolute">
+  <img src="assets/img/double.png" width="60" />
+</div>
+<div class="split position-absolute">
+  <img src="assets/img/split.png" width="60" />
+</div>
+
+<div class="hit position-absolute">
+  <img src="assets/img/hit.png" width="120" />
+</div>
+<div class="stand position-absolute">
+  <img src="assets/img/stand.png" width="120" />
+</div>
+
+</div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+
+</body>
+</html>
