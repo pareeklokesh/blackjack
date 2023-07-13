@@ -48,12 +48,15 @@ a {
   left: -4%;
 }
 .card-block img {
-  margin-left: -31%;
-  width: 60px;
+  margin-left: -27%;
+  width: 55px;
 }
 .beticon {
-  width: 75px;
+  width: 60px;
   margin-top: -8px;
+}
+.beticon .position-absolute {
+  width: 50px;
 }
 .card-bet-block {
   top: 12%;
@@ -67,21 +70,21 @@ a {
   font-weight: 600;
 }
 .card-bet-block-2 {
-  top: 42%;
-  left: 22%;
+  top: 41%;
+  left: 24%;
 }
 .card-bet-block-3 {
   left: auto;
   right: 8%;
 }
 .card-bet-block-4 {
-  top: 44%;
-  right: 15%;
+  top: 41%;
+  right: 22%;
 }
 .card-bet-block-5 {
-  left: 52%;
+  left: 46%;
   top: auto;
-  bottom: 31%;
+  bottom: 39%;
 }
 .card-bet-block-6 {
   width: 130px;
@@ -121,8 +124,8 @@ bottom: -41% !important;
 }
 .user-block-1 {
   top: auto;
-  bottom: 14%;
-  left: 20%;
+  bottom: 20%;
+  left: 16%;
 }
 .user-block-2 {
   left: 45%;
@@ -130,7 +133,7 @@ bottom: -41% !important;
 }
 .user-block-3 {
   left: auto;
-  right: 20%;
+  right: 16%;
 }
 .user-block-4 {
   top: 28%;
@@ -197,19 +200,20 @@ bottom: -41% !important;
   right: 22%;
 }
 .card-bet-block {
-  width: 125px;
+  width: 91px;
 }
-.card-bet-block-5 .beticon, .card-bet-block-4 .beticon {
-  left: -55%;
-  bottom: -30%;
+.card-bet-block .beticon {
+  left: -25%;
+  bottom: -80%;
+  position: absolute !important;
 }
 .split, .double {
   bottom: 5%;
-  left: 32%;
+  left: 29%;
 }
 .double {
   left: auto;
-  right: 32%;
+  right: 29%;
 }
 .stand, .hit {
   bottom: 6%;
@@ -224,6 +228,7 @@ bottom: -41% !important;
   font-size: 12px;
   padding: 1px 2px;
   font-weight: 600;
-  border-radius: 3px 10px 3px 10px !important;
-  min-width: 30px;
+  border-radius: 3px 8px 3px 8px !important;
+  min-width: 40px;
+  left: -10px !important;
 }
