@@ -208,16 +208,16 @@ bottom: -41% !important;
   position: absolute !important;
 }
 .split, .double {
-  bottom: 5%;
-  left: 29%;
+  bottom: 6%;
+  left: 26%;
 }
 .double {
   left: auto;
-  right: 29%;
+  right: 26%;
 }
 .stand, .hit {
-  bottom: 6%;
-  left: 33%;
+  bottom: 10%;
+  left: 34%;
 }
 .hit {
   left: auto;
